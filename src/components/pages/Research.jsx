@@ -23,8 +23,8 @@ const Research = () => {
       </div>
       <div className="work-link">
         <h1>HAVE A LOOK AT OUR WORK.</h1>
-        <a className="work-link-project" href="./projects" >PROJECTS</a>
-        <a className="work-link-publication" href="./publications">PUBLICATIONS</a>
+        <a className="work-link-project" href="/SBDA-LAB/projects" >PROJECTS</a>
+        <a className="work-link-publication" href="/SBDA-LAB/publications">PUBLICATIONS</a>
       </div>
       <Footer></Footer>
     </div>
