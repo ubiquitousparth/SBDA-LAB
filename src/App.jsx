@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,  // Use HashRouter here
   Route,
   Routes,
   useLocation,
@@ -16,8 +16,6 @@ import Projects from "./components/pages/Projects";
 import Publications from "./components/pages/Publications";
 import Products from "./components/pages/products";
 import "./App.css";
-
-
 
 const AppContent = () => {
   let heroData = [
@@ -62,7 +60,6 @@ const AppContent = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    
     </div>
   );
 };
