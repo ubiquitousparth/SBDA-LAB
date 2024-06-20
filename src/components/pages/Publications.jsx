@@ -83,10 +83,10 @@ const Publications = () => {
           <p className="ppr-animate">Check out our Publications and Products</p>
         </div>
         <div className="checkout-links ppr-animate">
-          <a className="work-link-project" href="./SBDA-LAB/#/projects">
+          <a className="work-link-project" href="./#/projects">
             PROJECTS
           </a>
-          <a className="work-link-publication" href="./SBDA-LAB/#/products">
+          <a className="work-link-publication" href="./#/products">
             PRODUCTS
           </a>
         </div>
