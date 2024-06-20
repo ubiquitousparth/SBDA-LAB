@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import {
-  HashRouter as Router,  // Use HashRouter here
+  HashRouter as Router,  
   Route,
   Routes,
   useLocation,
@@ -16,6 +16,7 @@ import Projects from "./components/pages/Projects";
 import Publications from "./components/pages/Publications";
 import Products from "./components/pages/products";
 import "./App.css";
+import Top from "./components/Top";
 
 const AppContent = () => {
   let heroData = [
@@ -67,6 +68,7 @@ const AppContent = () => {
 const App = () => {
   return (
     <Router>
+      <Top></Top>
       <div className="app-container">
         <AppContent />
       </div>
