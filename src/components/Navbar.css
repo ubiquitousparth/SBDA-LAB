@@ -3,10 +3,11 @@
   justify-content: space-between;
   align-items: center;
   color: azure;
-  background-color: rgba(0, 0, 0, 0.5); /* Transparent navbar */
+  background-color: rgba(0, 0, 0, 0.5); 
   border-radius: 10px;
   padding: 10px 20px;
   position: relative;
+  
   
   z-index: 1;
 }

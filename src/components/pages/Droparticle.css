@@ -1,0 +1,49 @@
+.main-articles-container {
+  width: 70%;
+}
+.drop-article-content button{
+ font-size: 1.3rem;
+ font-weight: 600;
+}
+
+.drop-article-text ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.drop-article-text ul li {
+  margin-bottom: 10px; 
+}
+
+.articles-tag {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.articles-tag:hover {
+  color: orangered;
+}
+
+@media (max-width: 768px) {
+  .main-articles-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-articles-container {
+    width: 100%;
+  }
+
+  .drop-article-content button {
+    font-size: 1.1rem;
+  }
+
+  .drop-article-text ul {
+    margin-left: 10px;
+  }
+
+  .drop-article-text ul li {
+    margin-bottom: 5px;
+  }
+}

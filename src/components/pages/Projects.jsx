@@ -126,10 +126,10 @@ const Projects = () => {
           <h2 className="ch-animate" >That's not it.</h2>
           <p className="ch-animate" >Check out our Publications and Products</p>
           <div className="checkout-links ch-animate">
-            <a className="work-link-project" href="./products">
+            <a className="work-link-project" href="./SBDA-LAB/#/products">
               PRODUCTS
             </a>
-            <a className="work-link-publication " href="./publications">
+            <a className="work-link-publication " href="./SBDA_LAB/#/publications">
               PUBLICATIONS
             </a>
           </div>

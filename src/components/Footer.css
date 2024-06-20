@@ -4,22 +4,22 @@
   text-align: center;
   padding: 20px;
   margin-top: auto;
+  border-top: 1px solid grey;
 }
 
 .footer .logo1 {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-
 }
 
 .footer .logo1 img {
-  width: 30px; 
+  width: 30px;
   height: auto;
   border-radius: 6px;
   margin: 5px 25px;
 }
-.x-icon{
+.x-icon {
   border-radius: 0 !important;
 }
 .footer p {
