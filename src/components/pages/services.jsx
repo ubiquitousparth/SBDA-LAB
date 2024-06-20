@@ -133,7 +133,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <a className="apply" href="/contact">APPLY HERE</a>
+          <a className="apply" href="./#/contact">APPLY HERE</a>
         </div>
       </div>
       <Footer></Footer>
