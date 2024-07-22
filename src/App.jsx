@@ -15,6 +15,7 @@ import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import Publications from "./components/pages/Publications";
 import Products from "./components/pages/products";
+import Teams from "./components/pages/Teams";
 import "./App.css";
 import Top from "./components/Top";
 
@@ -60,6 +61,7 @@ const AppContent = () => {
         <Route path="/publications" element={<Publications />} />
         <Route path="/products" element={<Products></Products>} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/teams" element={<Teams />} />
       </Routes>
     </div>
   );

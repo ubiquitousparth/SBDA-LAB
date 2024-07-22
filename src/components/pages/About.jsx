@@ -5,7 +5,6 @@ import Cardslider from "../Cardslider";
 import Data from "./Data";
 import Footer from "../Footer";
 
-
 const About = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -105,12 +104,17 @@ const About = () => {
             guidance and feedback on the analysis performed on the data.
           </p>
           <h2 className="co-heading">Our present collaborations</h2>
-          <div className="colab-slider"><Cardslider slideWidth="200px" slideHeight="200px" Data={Data} /></div>
-          
+          <div className="colab-slider">
+            <Cardslider slideWidth="200px" slideHeight="200px" Data={Data} slides={3} speed ={2000} />
+          </div>
         </div>
-        
+        <div className="teams-page-link">
+          <h1 className="tpl-heading-no">04</h1>
+          <h1 className="tpl-heading">Meet Our Team</h1>
+          <p className="tpl-para"><a className="tpl-url" href="/#/teams">CLICK HERE</a> To Discover The Brilliant Minds Behind The Scene.</p>
+        </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 };

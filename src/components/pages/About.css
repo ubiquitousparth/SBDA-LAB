@@ -39,47 +39,39 @@ body {
 
 .mission,
 .vision,
-.collaborations {
+.collaborations,
+.teams-page-link {
   text-align: center;
   margin: 5px 20px;
 }
 
-@media (min-width: 768px) {
-  .mission,
-  .vision,
-  .collaborations {
-    margin: 5px 40px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .mission,
-  .vision,
-  .collaborations {
-    margin: 5px 180px;
-  }
+.mi-heading,
+.vi-heading,
+.co-heading,
+.tpl-heading {
+  margin-top: 20px;
 }
 
 .mission p,
 .vision p,
-.co-para {
+.co-para,
+.tpl-para {
   text-align: justify;
   margin: 25px 5px;
   font-size: 1rem;
 }
-
-@media (min-width: 768px) {
-  .mission p,
-  .vision p,
-  .co-para {
-    font-size: 1.1rem;
-  }
+.tpl-para{
+  text-align: center;
 }
 
-.mi-heading,
-.vi-heading,
-.co-heading {
-  margin-top: 20px;
+.tpl-url {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.tpl-url:hover {
+  color: rgb(243, 3, 3);
 }
 
 .mi-heading-no,
@@ -108,12 +100,32 @@ body {
 }
 
 @media (min-width: 768px) {
+  .mission,
+  .vision,
+  .collaborations,
+  .teams-page-link {
+    margin: 5px 40px;
+  }
+
+  .mission p,
+  .vision p,
+  .co-para {
+    font-size: 1.1rem;
+  }
+
   .colab-slider {
     margin: 50px 50px;
   }
 }
 
 @media (min-width: 1024px) {
+  .mission,
+  .vision,
+  .collaborations,
+  .teams-page-link {
+    margin: 5px 180px;
+  }
+
   .colab-slider {
     margin: 50px 100px;
   }

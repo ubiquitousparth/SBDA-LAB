@@ -1,0 +1,137 @@
+.teams-main-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(32, 22, 10, 0),
+      rgba(1, 0, 14, 0.9)
+    ),
+    url("../../assets/teams2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+.team-container {
+  min-height: 80vh;
+  color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px 0px 20px;
+}
+.team-content-container {
+  background-color: #01000b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.team-leader h1 {
+  text-align: center;
+  margin: 1rem;
+}
+.tl-head-no {
+  font-size: 6rem;
+  -webkit-text-stroke: 1px rgb(156, 155, 155);
+  color: #01000b;
+}
+.tl-section {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  margin: 10px 3rem;
+}
+.tl-name,
+.tl-desg {
+  text-align: center;
+}
+.tl-name {
+  font-size: 1.9rem;
+  margin-top: 2rem;
+}
+.tl-img1 {
+  width: 40vw;
+}
+.tl-sm-profile {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.tl-twitter {
+  background-image: url("../../assets/x-logo.png");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tl-linkedin {
+  background-image: url("../../assets/ln logo.png");
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bullet-li {
+  list-style-type: disc;
+
+  margin-left: 1.5rem;
+}
+.numerical-li {
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  margin-bottom: 0.2rem;
+  text-align: justify;
+}
+
+.tm-head-no {
+  font-size: 6rem;
+  -webkit-text-stroke: 1px rgb(156, 155, 155);
+  color: #01000b;
+  text-align: center;
+}
+.tm-heading {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.team-memb-slider {
+  margin: 2rem;
+}
+.fm-head-no, .fm-heading{
+  text-align: center;
+  font-size: 2.5rem;
+}
+.fm-head-no{
+  font-size: 6rem;
+  color: #01000b;
+  -webkit-text-stroke: 1px rgb(156, 155, 155);
+}
+.fm-heading{
+  margin-bottom: 1.2rem;
+}
+.fm-section{
+  display: flex;
+  /* gap: 30rem; */
+  justify-content: space-evenly;
+}
+
+.fm-img1 {
+  background-image: url("../../assets/Harshita pandey.jpg");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fm-img2 {
+  background-image: url("../../assets/Priyanka mam.jpeg");
+  width: 400px;
+  height:400px;
+}
+.fm1, .fm2 {
+  text-align: center;
+}

@@ -1,4 +1,4 @@
-// src/components/pages/data.jsx
+
 import icmrLogo from "../../assets/icmr logo.jpg";
 import nextgenlifeLogo from "../../assets/nextgenlife logo.jpg";
 import sghLogo from "../../assets/sgh logo.png";

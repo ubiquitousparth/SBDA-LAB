@@ -5,14 +5,14 @@ import Slider from "react-slick";
 import Data from "./pages/Data";
 import "./Cardslider.css";
 
-const Cardslider = ({ slideWidth, slideHeight, Data }) => {
+const Cardslider = ({ slideWidth, slideHeight, Data, slides, speed }) => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: slides,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
+    speed: speed,
     autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
@@ -55,6 +55,8 @@ const Cardslider = ({ slideWidth, slideHeight, Data }) => {
           <div className="card-text">
             <h3 className="card-heading">{item.text}</h3>
             {item.paragraph && <p className="card-paragraph">{item.paragraph}</p>}
+            <h3>{item.heading} </h3>
+            {item.paragraph2 && <p className="card-paragraph2">{item.paragraph2}</p>}
           </div>
         </div>
       ))}
