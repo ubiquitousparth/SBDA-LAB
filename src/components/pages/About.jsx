@@ -111,7 +111,7 @@ const About = () => {
         <div className="teams-page-link">
           <h1 className="tpl-heading-no">04</h1>
           <h1 className="tpl-heading">Meet Our Team</h1>
-          <p className="tpl-para"><a className="tpl-url" href="/SBDA_LAB/#/teams">CLICK HERE</a> To Discover The Brilliant Minds Behind The Scene.</p>
+          <p className="tpl-para"><a className="tpl-url" href="/SBDA-LAB/#/teams">CLICK HERE</a> To Discover The Brilliant Minds Behind The Scene.</p>
         </div>
       </div>
       <Footer />
